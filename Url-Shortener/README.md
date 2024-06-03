@@ -5,10 +5,10 @@ The "URL Shortener" project is a web service developed to convert long URLs into
 - [Environmental Variables](#environmental-variables)
 - [Start of work](#start-of-work)
 - [Testing](#testing)
-- [Deploy and CI/CD](#deploy-and-ci/cd)
+- [Deploy and CI/CD](#deploy-and-cicd)
 - [To do](#to-do)
 - [Improvements](#improvements)
-- [Project Team](#project_team)
+- [Project Team](#project-team)
 # Technologies
  + Spring Boot
  + Spring Data
@@ -46,7 +46,7 @@ What to do start the application
  - [ ] There must be two launch profiles, default and prod [https://www.baeldung.com/spring-profiles](https://www.baeldung.com/spring-profiles).
  - [ ] The default profile should have settings for local launch.
  - [ ] Prod for a remote server.
- - [ ] The application must have a Dockerfile, and the local launch of the application (application + database) must be described in docker-compose.yml.
+ - [x] The application must have a Dockerfile, and the local launch of the application (application + database) must be described in docker-compose.yml.
  - [ ] The database for tests must be launched using [https://java.testcontainers.org/](https://java.testcontainers.org/).
  - [x] All private information, such as login and password to the DB, must be in the form of environment variables: ```${DB_USERNAME}```.
  - [x] Environment variables must be described in the README.md file.
